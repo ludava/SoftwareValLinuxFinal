@@ -12,7 +12,7 @@ public class TestCase2 extends TestCase{
 		testEmail = new SimpleEmail();
 	}
 	public void testAddCcMulti() throws EmailException {
-		System.out.println("Test Case to see if two CC addresses were added");
+		System.out.println("Test Case to see if two CC addresses were added - QBW___");
 		String [] testEmails = new String[] {"a@b.com", "b@c.com"};
 		testEmail.addCc(testEmails);
 		

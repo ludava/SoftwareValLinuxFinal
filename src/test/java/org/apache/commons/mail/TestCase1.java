@@ -12,7 +12,7 @@ public class TestCase1 extends TestCase{
 		testEmail = new SimpleEmail();
 	}
 	public void testAddCc() throws EmailException {
-		System.out.println("This is testing if a CC was added");
+		System.out.println("This is testing if a CC was added - QBW___");
 		testEmail.addCc("a@c.com");
 		assertEquals("a@c.com", testEmail.getCcAddresses().get(0).toString());
 	}
