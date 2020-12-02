@@ -6,15 +6,15 @@ import org.apache.commons.mail.SimpleEmail;
 
 import junit.framework.TestCase;
 
-public class TemplateTest extends TestCase{
+public class TestCase1 extends TestCase{
 	Email testEmail;
 	public void setUp() {
 		testEmail = new SimpleEmail();
 	}
-	public void testAddBcc() throws EmailException {
-		System.out.println("This is a message from the template test.");
-		testEmail.addBcc("a@b.com");
-		assertEquals("a@b.com", testEmail.getBccAddresses().get(0).toString());
+	public void testAddCc() throws EmailException {
+		System.out.println("This is testing if a CC was added");
+		testEmail.addCc("a@c.com");
+		assertEquals("a@c.com", testEmail.getCcAddresses().get(0).toString());
 	}
 
 }
