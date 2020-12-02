@@ -17,7 +17,7 @@ pipeline {
 
     stage('Delivery') {
       steps {
-        echo 'Made it to delivery'
+        sh 'echo "Reached DELIVERY STAGE: Software Val and Quality Assurance Final Project - QBW___"'
       }
     }
 
