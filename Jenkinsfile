@@ -10,8 +10,8 @@ pipeline {
     stage('Test') {
       steps {
         sh 'mvn test'
-        echo 'Test 1- QBW___'
-        echo 'Test 2 - QBW___'
+        echo 'Test Case 1: Add an email to CC and test if that newly added email exists - QBW___'
+        echo 'Test 2: Add two emails to the CC array and test if they both exist  - QBW___'
       }
     }
 
