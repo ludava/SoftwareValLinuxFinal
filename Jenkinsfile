@@ -10,6 +10,8 @@ pipeline {
     stage('Test') {
       steps {
         sh 'mvn test'
+        echo 'Test 1- QBW___'
+        echo 'Test 2 - QBW___'
       }
     }
 
